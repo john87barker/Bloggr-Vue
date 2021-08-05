@@ -29,8 +29,10 @@
           </router-link>
         </li>
       </ul>
-      <div class="pr-5 action hoverable" data-toggle="modal" data-target="#create-blog">
-        <span>Create Blog</span>
+      <div class="mr-5 p-2 rounded action hoverable  on" data-toggle="modal" data-target="#create-blog">
+        <button type="button" class="btn btn-outline-primary py-3">
+          Create Blog
+        </button>
       </div>
       <span class="navbar-text">
         <button
@@ -49,7 +51,7 @@
               :src="user.picture"
               alt="user photo"
               height="40"
-              class="rounded"
+              class="rounded-circle"
             />
             <span class="mx-3">{{ user.name }}</span>
           </div>
@@ -198,9 +200,17 @@ export default {
 }
 .hoverable {
   cursor: pointer;
+
 }
+.on :hover{
+ background-color: #3ba5dc;
+  animation-name: create;
+  animation-duration: 2s;
+}
+
 a:hover {
   text-decoration: none;
+
 }
 .nav-link{
   text-transform: uppercase;

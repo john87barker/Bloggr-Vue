@@ -7,7 +7,9 @@
   </main>
   <footer>
     <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
+      Made with 🐶 by John and Veronica!
+      <br>
+      "Team Awesome" according to Harrison...
     </div>
   </footer>
 </template>

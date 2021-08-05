@@ -1,8 +1,8 @@
 <template>
-  <div class="row BlogCard thick rounded-lg p-5 m-3">
+  <div class="row BlogCard thick rounded p-5 m-3">
     <div class="align-self-end justify-self-end" v-if="account.id === blog.creatorId">
       <button class="btn btn-dark" @click.stop="destroy">
-        delete
+        X
       </button>
     </div>
     <div class="col-12 ">
