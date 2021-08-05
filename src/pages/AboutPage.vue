@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is the about page</h1>
+    <h1>Welcome to my blog, about me! Of course it has to include the Spice Devs and their 90's profiles. Thanks for checking this out!</h1>
   </div>
 </template>
 

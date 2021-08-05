@@ -29,8 +29,8 @@
           </router-link>
         </li>
       </ul>
-      <div class="pr-5 action" data-toggle="modal" data-target="#create-blog">
-        <span>Create BLog</span>
+      <div class="pr-5 action hoverable" data-toggle="modal" data-target="#create-blog">
+        <span>Create Blog</span>
       </div>
       <span class="navbar-text">
         <button
