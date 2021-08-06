@@ -1,6 +1,6 @@
 <template>
-  <div class="about row ">
-    <h1 class="text-center col-md-12">
+  <div class="about row text-light">
+    <h1 class="text-center col-md-12 pt-3 ">
       Welcome to my blog, about me!
     </h1>
     <p class="p-5">
